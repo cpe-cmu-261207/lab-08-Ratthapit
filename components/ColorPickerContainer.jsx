@@ -12,7 +12,7 @@ export default function ColorPickerContainer() {
         <ColorPicker color="#FE0000" />
         <ColorPicker color="#FE6A00" />
         <ColorPicker color="#FFD800" />
-        <ColorPicker color="#00FF01" />
+        <ColorPicker color="#00FF00" />
       </div>
       <div className="d-flex gap-2 justify-content-center">
         <ColorPicker color="#FFFFFF" />

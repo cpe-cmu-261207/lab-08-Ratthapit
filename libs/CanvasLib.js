@@ -24,7 +24,7 @@ const CanvasLib = {
       "#FE0000",
       "#FE6A00",
       "#FFD800",
-      "#00FF01",
+      "#00FF00",
       "#FFFFFF",
       "#01FFFF",
       "#0094FE",
@@ -32,6 +32,15 @@ const CanvasLib = {
       "#B100FE",
       "#FF006E",
     ];
+
+    const a = [];
+    for (let i = 0; i < 16; i++) {
+      a.push([]);
+
+      for (let j = 0; j < 16; j++)
+        a[i].push(colors[Math.floor(Math.random() * colors.length)]);
+    }
+    return a;
   },
 };
 
